@@ -4,7 +4,399 @@
 	(generator_version "9.0")
 	(uuid "5effc93d-4636-458a-a65b-e63d3c617be7")
 	(paper "A4")
+	(title_block
+		(title "Integrated Si5351A Module")
+		(date "2026-02-09")
+		(rev "REV1")
+		(company "Yaniv Lieberman")
+	)
 	(lib_symbols
+		(symbol "DC-005-5A-2.0:DC-005-5A-2.0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DC-005-5A-2.0"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DC-005-5A-2.0:XKB_DC-005-5A-2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "XKB Industrial Precision"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DC-005-5A-2.0/XKB+Connection/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DC-005-5A-2.0/XKB+Connection/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "DC-005-5A-2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "DC Power Receptacle Jack, Through Hole，Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "XKB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "DC-005-5A-2.0_0_0"
+				(polyline
+					(pts
+						(xy -4.445 3.175) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.445 1.905)
+					(mid -5.0772 2.54)
+					(end -4.445 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.5421 -3.3564)
+					(end 3.5379 2.9936)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -1.27) (xy 0 -2.54) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.905) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Resistors:0603,5.1kΩ"
 			(pin_numbers
 				(hide yes)
@@ -867,6 +1259,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "USB-C device, USB 2.0 only, Rd = 5.1k"
 		(exclude_from_sim no)
@@ -877,6 +1370,16 @@
 			)
 		)
 		(uuid "bccfd51a-69d6-4b58-b947-03902d1c9df5")
+	)
+	(text "Barrel Jack - Expected 5V"
+		(exclude_from_sim no)
+		(at 42.418 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf6713c9-0365-410c-a06a-80d3ba63eeaf")
 	)
 	(junction
 		(at 63.5 48.26)
@@ -896,6 +1399,24 @@
 		(color 0 0 0 0)
 		(uuid "9d3e4815-a1a0-482e-ad2e-20f8e179155f")
 	)
+	(junction
+		(at 58.42 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d5dedd-c6b0-4ae2-a688-65482502c490")
+	)
+	(junction
+		(at 116.52 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d650d666-97b8-4ebe-a709-3c1e87c4a99d")
+	)
+	(junction
+		(at 58.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc88403c-7b4c-45dd-a348-87aab6acd9e2")
+	)
 	(no_connect
 		(at 21.59 50.8)
 		(uuid "136efd12-3f25-407a-82b7-4716b3dc57b2")
@@ -903,6 +1424,30 @@
 	(no_connect
 		(at 57.15 43.18)
 		(uuid "3224ed69-f364-463b-a82d-ddda0f9a1dfa")
+	)
+	(no_connect
+		(at 45.72 97.79)
+		(uuid "ea271651-94e2-45e0-8721-1a2aa640188e")
+	)
+	(wire
+		(pts
+			(xy 91.44 35.56) (xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b05905-dafb-4258-92d7-b090348fdff2")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 57.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0651889c-d6e6-48f1-bf84-bca3c7dd1f43")
 	)
 	(wire
 		(pts
@@ -926,6 +1471,36 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 31.75) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e976b3-4bd4-44e4-aa31-ff8afc2d4cc6")
+	)
+	(wire
+		(pts
+			(xy 58.42 59.69) (xy 66.04 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41289f8b-f5ee-4bc0-8165-7adccaab2c85")
+	)
+	(wire
+		(pts
+			(xy 116.52 33.02) (xy 119.38 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dcde50-21dc-432e-923b-46f29240fa76")
+	)
+	(wire
+		(pts
 			(xy 13.97 27.94) (xy 64.77 27.94)
 		)
 		(stroke
@@ -933,6 +1508,16 @@
 			(type default)
 		)
 		(uuid "53866522-c118-40e3-9b0d-cf2064a27255")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 66.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ed2753-f27f-48f4-8497-10e6cf66535e")
 	)
 	(wire
 		(pts
@@ -956,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 59.69) (xy 58.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8643bb26-de16-4ba7-b339-87a96fba6b96")
+	)
+	(wire
+		(pts
 			(xy 58.42 55.88) (xy 58.42 58.42)
 		)
 		(stroke
@@ -963,6 +1558,16 @@
 			(type default)
 		)
 		(uuid "94fba7fe-7042-4555-b195-6991ef382f8b")
+	)
+	(wire
+		(pts
+			(xy 115.57 33.02) (xy 116.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd6c8b1-fd7e-4ca7-afc7-128a320c0829")
 	)
 	(wire
 		(pts
@@ -986,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 58.42 60.96)
+			(xy 58.42 58.42) (xy 58.42 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1003,6 +1608,16 @@
 			(type default)
 		)
 		(uuid "ae41fed4-820d-46fd-a78c-1570ea135c1c")
+	)
+	(wire
+		(pts
+			(xy 91.76 27.94) (xy 96.52 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea08250d-03e9-43c3-8b57-c6dbff97cff4")
 	)
 	(wire
 		(pts
@@ -1033,6 +1648,16 @@
 			(type default)
 		)
 		(uuid "f0c90d5b-588a-4c71-9599-ab2a610e7514")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 58.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35d0cfd-d38b-419a-953c-11ce527e2f45")
 	)
 	(wire
 		(pts
@@ -1094,6 +1719,26 @@
 		)
 		(uuid "1059647b-b40e-48f4-809e-932d37c6f0af")
 	)
+	(label "SYS_3V3"
+		(at 119.38 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "199a82e3-39fe-446c-8d18-db64ee1c41a3")
+	)
+	(label "BARREL_5V"
+		(at 45.72 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d2bca91-251f-4b83-bdca-3f572914d7df")
+	)
 	(label "CC2"
 		(at 57.15 50.8 0)
 		(effects
@@ -1134,8 +1779,18 @@
 		)
 		(uuid "cddc79c2-a813-4ddf-bf59-b772ea8d748b")
 	)
+	(label "BARREL_5V"
+		(at 91.76 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4156448-c15f-439b-b784-9c17ff4f45d3")
+	)
 	(label "VBUS_5V"
-		(at 57.15 38.1 0)
+		(at 60.96 38.1 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -1143,6 +1798,257 @@
 			(justify left bottom)
 		)
 		(uuid "e9dce289-eaee-4085-b4e7-f88921d84564")
+	)
+	(label "VBUS_5V"
+		(at 91.44 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc7beb3c-9980-406b-9d35-af6e7cd109bf")
+	)
+	(symbol
+		(lib_id "TYPE-C-31-M-12:TYPE-C-31-M-12")
+		(at 39.37 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2abfad04-671d-41f0-b4a7-f4014b6d7c14")
+		(property "Reference" "J1"
+			(at 39.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TYPE-C-31-M-12"
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "HRO Electronics Co., Ltd."
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2020.12.08"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TYPE-C-31-M-12"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "HRO Electronics Co., Ltd."
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A7"
+			(uuid "77523f30-4115-4e8b-8143-4239297fd2f4")
+		)
+		(pin "S1"
+			(uuid "f541f56c-20b3-408f-a116-ccfbef795b12")
+		)
+		(pin "A6"
+			(uuid "d0b57974-1875-444f-873a-bf5517c47393")
+		)
+		(pin "A5"
+			(uuid "c6901c8f-d99d-4294-acb3-3d0c7db3ac4b")
+		)
+		(pin "A4_B9"
+			(uuid "d6baf0d5-6abe-47eb-b61a-d1a47a34cb0b")
+		)
+		(pin "B4_A9"
+			(uuid "ba1ce20d-7424-419b-9364-29fb7e38355a")
+		)
+		(pin "B8"
+			(uuid "814e6cec-f6f8-415a-ab40-dc2b34801f40")
+		)
+		(pin "B7"
+			(uuid "6ece890e-c1d2-4dd8-b013-36e3bb885e0c")
+		)
+		(pin "B6"
+			(uuid "d641dd51-e25d-4fdc-ba6c-215c4171c85e")
+		)
+		(pin "A8"
+			(uuid "bce8d820-5bb7-479e-bfb1-065d3b8fc674")
+		)
+		(pin "B5"
+			(uuid "363f3ad9-da38-4236-87ed-78c6c86e3ac7")
+		)
+		(pin "S2"
+			(uuid "25da5882-69dc-4b3a-a249-0fc23bff557a")
+		)
+		(pin "S3"
+			(uuid "3ac3032e-b4b6-4d21-bd97-6002019aafe2")
+		)
+		(pin "A1_B12"
+			(uuid "de8cd617-e3b4-4407-84fb-3f04545c3916")
+		)
+		(pin "B1_A12"
+			(uuid "45063e0f-2c76-4df0-99f6-20455df7e466")
+		)
+		(pin "S4"
+			(uuid "bf7a5410-0dce-47b7-8699-84f86e58bbaf")
+		)
+		(instances
+			(project ""
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,5.1kΩ")
@@ -1362,6 +2268,138 @@
 			(project ""
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50962f0b-aeff-4edd-991e-f5a336dfc711")
+		(property "Reference" "#FLG01"
+			(at 58.42 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef4e5a4b-6826-4687-996f-d4494bb2689e")
+		)
+		(instances
+			(project ""
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b33527-3c90-4be2-9666-2fd0b22e70d3")
+		(property "Reference" "#FLG02"
+			(at 66.04 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae37ea7a-4fb1-42c4-87be-f9274b945368")
+		)
+		(instances
+			(project ""
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1723,43 +2761,34 @@
 		)
 	)
 	(symbol
-		(lib_id "TYPE-C-31-M-12:TYPE-C-31-M-12")
-		(at 39.37 48.26 0)
+		(lib_id "power:GND")
+		(at 45.72 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eaaee5a1-0cd8-4d7c-bbb0-b60492363f33")
-		(property "Reference" "J1"
-			(at 39.37 30.48 0)
+		(uuid "a9623c9b-f949-4852-9dac-a927d3a5064b")
+		(property "Reference" "#PWR04"
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "TYPE-C-31-M-12"
-			(at 39.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 39.37 48.26 0)
+		(property "Value" "GND"
+			(at 45.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,8 +2796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 48.26 0)
+		(property "Datasheet" ""
+			(at 45.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,188 +2805,88 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "HRO Electronics Co., Ltd."
-			(at 39.37 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2020.12.08"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TYPE-C-31-M-12"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HRO Electronics Co., Ltd."
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "B7"
-			(uuid "8fb5f5b8-b674-4f03-a8c8-c7c02e30b058")
-		)
-		(pin "S1"
-			(uuid "5646a636-4aab-4177-8578-483f26bf08a6")
-		)
-		(pin "S2"
-			(uuid "1b6ebd12-1010-4ffb-9158-19e05b159112")
-		)
-		(pin "A5"
-			(uuid "320bfc09-639f-42d1-9053-96d9e2324b68")
-		)
-		(pin "A8"
-			(uuid "8505aec8-001a-4de3-ad6f-f8a16b03c59b")
-		)
-		(pin "A4_B9"
-			(uuid "7ced9cd2-9e52-4592-8be9-ef24c2f9fdb1")
-		)
-		(pin "B6"
-			(uuid "18725303-8f56-4f2f-a2de-2abe66e69cae")
-		)
-		(pin "A6"
-			(uuid "262e0216-c4b4-4de6-a2c0-d89abbdc6ef9")
-		)
-		(pin "A7"
-			(uuid "0ba5a9f1-c022-42bf-a673-bcffba90e48d")
-		)
-		(pin "B4_A9"
-			(uuid "acbee215-5bdf-4dcb-9983-6a622f76d020")
-		)
-		(pin "B8"
-			(uuid "3750041a-42fe-459a-bc24-9e51fa35df81")
-		)
-		(pin "B5"
-			(uuid "140f3e81-e6b5-45ec-8839-882193a38246")
-		)
-		(pin "B1_A12"
-			(uuid "0a37a3c1-6c7f-4531-8ab1-16c6e797b1fb")
-		)
-		(pin "S4"
-			(uuid "082aab99-73da-4724-9576-5126400f0c77")
-		)
-		(pin "S3"
-			(uuid "3f6b58fe-ae27-4eb0-8561-b6ff5a102a2b")
-		)
-		(pin "A1_B12"
-			(uuid "1478ea9c-bf71-42f3-96d7-ff6acd45434a")
+		(pin "1"
+			(uuid "13f9077c-91e8-41ee-8d54-492dd3a06307")
 		)
 		(instances
 			(project ""
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7"
-					(reference "J1")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b42315b0-e46b-4223-aa91-940cda7a60e1")
+		(property "Reference" "#PWR06"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55e16f93-90f6-4e4f-94c0-1727ba9450ec")
+		)
+		(instances
+			(project ""
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2029,8 +2958,200 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "DC-005-5A-2.0:DC-005-5A-2.0")
+		(at 38.1 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffcf9a78-bee4-4c45-9df0-ca97b20b4097")
+		(property "Reference" "J2"
+			(at 37.3289 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC-005-5A-2.0"
+			(at 37.3289 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DC-005-5A-2.0:XKB_DC-005-5A-2.0"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "XKB Industrial Precision"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11 mm"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DC-005-5A-2.0/XKB+Connection/view-part/?ref=eda"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A0"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DC-005-5A-2.0/XKB+Connection/view-part/?ref=snap"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DC-005-5A-2.0"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DC Power Receptacle Jack, Through Hole，Right Angle"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "XKB"
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2be2ddb5-d039-4c45-9e71-4448a239f3e0")
+		)
+		(pin "1"
+			(uuid "f241cf95-845d-48ea-818c-f5cd03996e09")
+		)
+		(pin "2"
+			(uuid "df7a1e13-fe7c-46a0-ae38-2409d699bfbe")
+		)
+		(instances
+			(project ""
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 96.14 39.08)
+		(at 96.52 26.64)
 		(size 20 12)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2046,7 +3167,7 @@
 		)
 		(uuid "b4ee4f08-b624-4cac-901b-486515061dff")
 		(property "Sheetname" "Input Power Stage"
-			(at 96.14 38.3684 0)
+			(at 96.52 25.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,12 +3176,52 @@
 			)
 		)
 		(property "Sheetfile" "Input_Power_Stage.kicad_sch"
-			(at 96.14 51.6646 0)
+			(at 96.52 39.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BARREL_5V" input
+			(at 96.52 27.94 180)
+			(uuid "11145d4c-f8ef-452f-8094-5065fe8e5f6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_5V" input
+			(at 96.52 31.75 180)
+			(uuid "70403e51-e9ee-46a0-8e95-542968536aef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 96.52 35.56 180)
+			(uuid "1b107b78-46f8-4fa5-a87f-0c4372c6f9e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_3V3" output
+			(at 116.52 33.02 0)
+			(uuid "d30234f4-770b-4411-a80a-98a1a1865770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

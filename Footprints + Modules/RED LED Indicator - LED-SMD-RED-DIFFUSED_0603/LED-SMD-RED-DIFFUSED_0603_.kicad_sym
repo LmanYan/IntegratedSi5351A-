@@ -1,0 +1,95 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LED-SMD-RED-DIFFUSED_0603_" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -5.08504 1.27126 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LED-SMD-RED-DIFFUSED_0603_" (id 1) (at -5.08846 -2.54423 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LED-SMD-RED-DIFFUSED_0603_:LED-0603" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Everlight Electronics" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Red - LED Indication - Discrete 1.95V 0603 (1608 Metric)\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "0603 Everlight Electronics" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "19-217-R6C-AL1M2VY-3T" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=snap" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "19-217/R6C-AL1M2VY/3T" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/19-217/R6C-AL1M2VY/3T/Everlight/view-part/?ref=eda" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LED-SMD-RED-DIFFUSED_0603__0_0"
+      (polyline
+        (pts (xy -1.27 -2.54) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy -1.143 2.413)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.143 2.413) (xy -0.508 1.778)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 1.778) (xy 1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 0.0) (xy -1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.143 2.413) (xy 0.889 4.445)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.889 4.445) (xy 0.127 4.318)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.889 4.445) (xy 0.762 3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.508 1.778) (xy 1.524 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.524 3.81) (xy 0.762 3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.524 3.81) (xy 1.397 3.048)) (stroke (width 0.254))
+      )
+      (pin passive line (at -3.81 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "+"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 3.81 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "-"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
