@@ -646,6 +646,10 @@
     [
       "b4ee4f08-b624-4cac-901b-486515061dff",
       "Input Power Stage"
+    ],
+    [
+      "75c54d97-db8f-4bdf-a4f3-daf781fcb8b9",
+      "RP2040 USB Programmer"
     ]
   ],
   "text_variables": {}
