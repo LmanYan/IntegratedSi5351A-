@@ -855,6 +855,10 @@
     [
       "6855ab1b-0a54-4134-bbbf-5553693eadbf",
       "STM32 MCU Stage"
+    ],
+    [
+      "096e3b97-f1cf-4ae1-a375-ee6f8ad096a4",
+      "RF Module Stage"
     ]
   ],
   "text_variables": {}
