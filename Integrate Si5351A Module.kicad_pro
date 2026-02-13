@@ -650,6 +650,10 @@
     [
       "75c54d97-db8f-4bdf-a4f3-daf781fcb8b9",
       "RP2040 USB Programmer"
+    ],
+    [
+      "6855ab1b-0a54-4134-bbbf-5553693eadbf",
+      "STM32 MCU Stage"
     ]
   ],
   "text_variables": {}
