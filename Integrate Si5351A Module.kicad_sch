@@ -5289,7 +5289,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "STM32 MCU Stage.kicad_sch"
 			(at 132.19 73.3646 0)
 			(effects
 				(font
