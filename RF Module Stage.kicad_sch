@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "94142b96-ad2b-4143-9af6-0707394dd39e")
+	(uuid "d73855aa-ca57-474a-9478-c6dddc887125")
 	(paper "A4")
 	(title_block
 		(date "2026-02-09")
@@ -1649,12 +1649,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Clock Generator, Si5351A-B-GT Silicon Labs Si5351A-B-GT, Clock Generator 100MHz 55%, 10-Pin MSOP"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1669,16 +1670,6 @@
 				)
 			)
 			(property "MF" "Skyworks Solutions Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Clock Generator, Si5351A-B-GT Silicon Labs Si5351A-B-GT, Clock Generator 100MHz 55%, 10-Pin MSOP"
 				(at 0 0 0)
 				(effects
 					(font
