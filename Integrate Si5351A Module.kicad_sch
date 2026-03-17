@@ -5381,7 +5381,7 @@
 				)
 			)
 		)
-		(property "Value" "22Ω"
+		(property "Value" "27Ω"
 			(at 107.95 44.45 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5669,7 +5669,7 @@
 				)
 			)
 		)
-		(property "Value" "22Ω"
+		(property "Value" "27Ω"
 			(at 107.95 41.91 90)
 			(do_not_autoplace yes)
 			(effects
