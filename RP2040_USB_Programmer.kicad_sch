@@ -5165,7 +5165,7 @@
 		)
 	)
 	(rectangle
-		(start 190 118.75)
+		(start 190 112)
 		(end 229.25 164.47)
 		(stroke
 			(width 0)
@@ -5177,8 +5177,8 @@
 		(uuid 12feaeea-c6bd-4a0b-a920-74d09b3b11b0)
 	)
 	(rectangle
-		(start 201.87 60.86)
-		(end 278.62 113.33)
+		(start 190.44 54.51)
+		(end 267.19 106.98)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5189,8 +5189,8 @@
 		(uuid 67d5e005-94c6-4f72-8cc9-b047499910cc)
 	)
 	(rectangle
-		(start 237.19 18.21)
-		(end 271.19 53.96)
+		(start 235.92 16.94)
+		(end 269.92 52.69)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5314,7 +5314,7 @@
 	)
 	(text "RP2040 Crystal Connection - Place Near XIN/XOUT Pins"
 		(exclude_from_sim no)
-		(at 253.746 16.764 0)
+		(at 252.476 15.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5324,7 +5324,7 @@
 	)
 	(text "RP2040 BOOTSEL Toggle Switch + Indicator LED"
 		(exclude_from_sim no)
-		(at 208.534 117.348 0)
+		(at 208.534 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5344,7 +5344,7 @@
 	)
 	(text "RP2040 Flash"
 		(exclude_from_sim no)
-		(at 229.616 59.182 0)
+		(at 218.186 52.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5455,7 +5455,7 @@
 		(uuid "91327662-a437-4d5a-9e35-e9886ed0cca6")
 	)
 	(no_connect
-		(at 199.39 129.54)
+		(at 199.39 123.19)
 		(uuid "92472083-72dc-4ddb-9c17-32b25c2aa11c")
 	)
 	(no_connect
@@ -5610,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 99.06) (xy 242.57 99.06)
+			(xy 223.52 92.71) (xy 231.14 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5660,7 +5660,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 121.92) (xy 199.39 124.46)
+			(xy 199.39 115.57) (xy 199.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5848,6 +5848,16 @@
 		)
 		(uuid "f67c4c2b-ef63-457e-82da-719c8e834cfb")
 	)
+	(wire
+		(pts
+			(xy 215.9 138.43) (xy 213.36 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9182b3-ca4b-4425-a7a8-8b5a700a1bad")
+	)
 	(label "SYS_3V3"
 		(at 257.81 153.67 180)
 		(effects
@@ -5899,7 +5909,7 @@
 		(uuid "21141461-1c0e-48f2-901b-f65babbd417d")
 	)
 	(label "QSPLSD1"
-		(at 212.09 85.09 180)
+		(at 200.66 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5969,7 +5979,7 @@
 		(uuid "3b19499f-9a40-4f1e-9b7e-369e3d29b39a")
 	)
 	(label "QSPLSD3"
-		(at 257.81 85.09 0)
+		(at 246.38 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6019,7 +6029,7 @@
 		(uuid "4d9c2d5d-ff36-4d27-9024-fa32a1216cb2")
 	)
 	(label "FLASH_VCC"
-		(at 242.57 99.06 0)
+		(at 231.14 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6069,7 +6079,7 @@
 		(uuid "5e108fad-6534-401d-9716-18033e257b7e")
 	)
 	(label "QSPI_SS"
-		(at 212.09 74.93 180)
+		(at 200.66 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6099,7 +6109,7 @@
 		(uuid "67925235-6f34-4af4-a1b9-0d49316a08b5")
 	)
 	(label "XIN"
-		(at 246.38 31.75 180)
+		(at 245.11 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6109,7 +6119,7 @@
 		(uuid "6deb4596-fb5d-4226-9246-810448ae58c7")
 	)
 	(label "QSPLSD0"
-		(at 212.09 82.55 180)
+		(at 200.66 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6169,7 +6179,7 @@
 		(uuid "8956697a-a104-4d24-914a-6ab79e7ff378")
 	)
 	(label "XOUT"
-		(at 261.62 26.67 0)
+		(at 260.35 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6199,7 +6209,7 @@
 		(uuid "9f3dc16d-6412-4152-af1a-9d5ea86ed255")
 	)
 	(label "FLASH_VCC"
-		(at 257.81 69.85 0)
+		(at 246.38 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6229,7 +6239,7 @@
 		(uuid "a208ac80-9e46-479a-a829-70579f39696e")
 	)
 	(label "SYS_3V3"
-		(at 205.74 144.78 180)
+		(at 205.74 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6239,7 +6249,7 @@
 		(uuid "a34afe1b-d057-43bc-9855-986acf2b9633")
 	)
 	(label "QSPI_SS"
-		(at 213.36 144.78 0)
+		(at 215.9 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6269,7 +6279,7 @@
 		(uuid "a77ed874-95c0-455f-af17-598d0c336c82")
 	)
 	(label "SYS_3V3"
-		(at 234.95 99.06 180)
+		(at 223.52 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6329,7 +6339,7 @@
 		(uuid "baeb8c4f-202b-482e-9d1e-41702514942b")
 	)
 	(label "XOUT"
-		(at 252.73 39.37 0)
+		(at 251.46 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6379,7 +6389,7 @@
 		(uuid "c86704b6-8371-448d-82b0-140f813f522a")
 	)
 	(label "QSPLSCLK"
-		(at 212.09 77.47 180)
+		(at 200.66 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6399,7 +6409,7 @@
 		(uuid "d1838e9a-c00b-4ace-9aee-8030a82ea308")
 	)
 	(label "XIN"
-		(at 247.65 39.37 180)
+		(at 246.38 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6449,7 +6459,7 @@
 		(uuid "eacdbcba-afbd-45a9-97aa-f01b0c4c0772")
 	)
 	(label "QSPI_SS"
-		(at 199.39 127 180)
+		(at 199.39 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6489,7 +6499,7 @@
 		(uuid "fc80146e-6a7c-4f29-9a63-170cfc0a6e70")
 	)
 	(label "QSPLSD2"
-		(at 257.81 82.55 0)
+		(at 246.38 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6908,7 +6918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 90.17 90)
+		(at 246.38 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6917,7 +6927,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e3c891a-16cf-4807-bbf3-3dabe95214e1")
 		(property "Reference" "#PWR040"
-			(at 264.16 90.17 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 90.1699 90)
+			(at 250.19 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +6945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 90.17 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 90.17 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 90.17 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,7 +6985,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 134.62 0)
+		(at 199.39 128.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6984,7 +6994,7 @@
 		(dnp no)
 		(uuid "11517510-4647-4c7d-bce3-a794ec5bdee9")
 		(property "Reference" "#PWR034"
-			(at 199.39 140.97 0)
+			(at 199.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +7003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 139.7 0)
+			(at 199.39 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 134.62 0)
+			(at 199.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 134.62 0)
+			(at 199.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 134.62 0)
+			(at 199.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +7051,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
-		(at 209.55 144.78 90)
+		(at 209.55 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7050,7 +7060,7 @@
 		(fields_autoplaced yes)
 		(uuid "13db543a-0676-4780-9e77-e37fb2e8bd01")
 		(property "Reference" "R22"
-			(at 209.55 140.97 90)
+			(at 209.55 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7068,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 209.55 144.78 90)
+			(at 209.55 138.43 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7067,7 +7077,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 209.55 146.558 90)
+			(at 209.55 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7086,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7095,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7104,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7113,7 @@
 			)
 		)
 		(property "Stock" "51181774"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7122,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7131,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7140,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7149,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7158,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +7167,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7176,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7185,7 @@
 			)
 		)
 		(property "Part" "0603WAF1002T5E"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7194,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7203,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7212,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7221,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7230,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7239,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7248,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 209.55 144.78 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7273,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 242.57 102.87 180)
+		(at 231.14 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7272,7 +7282,7 @@
 		(fields_autoplaced yes)
 		(uuid "19392085-dba6-4556-894b-e92c7dad8c4c")
 		(property "Reference" "C15"
-			(at 245.11 100.3299 0)
+			(at 233.68 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7291,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 245.11 102.87 0)
+			(at 233.68 96.52 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7290,7 +7300,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 244.348 102.87 90)
+			(at 232.918 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7318,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7327,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7336,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7345,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7354,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +7363,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7372,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7381,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7390,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7399,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +7408,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7407,7 +7417,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 245.11 105.41 0)
+			(at 233.68 99.06 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7416,7 +7426,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7435,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7444,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 242.57 102.87 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +7469,7 @@
 	)
 	(symbol
 		(lib_id "W25Q16JVSSIQ:W25Q16JVSSIQ")
-		(at 234.95 80.01 0)
+		(at 223.52 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7468,7 +7478,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bb7d374-692b-4781-a140-37f005c09a5e")
 		(property "Reference" "U5"
-			(at 234.95 62.23 0)
+			(at 223.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7486,7 @@
 			)
 		)
 		(property "Value" "W25Q16JVSSIQ"
-			(at 234.95 64.77 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7494,7 @@
 			)
 		)
 		(property "Footprint" "Flash for RP - W25Q16JVSSIQ:SOIC127P790X216-8N"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +7513,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7522,7 @@
 			)
 		)
 		(property "MF" "Winbond Electronics"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +7532,7 @@
 			)
 		)
 		(property "DESCRIPTION" "3v 16m-Bit Serial Flash Memory With Dual"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7542,7 @@
 			)
 		)
 		(property "PACKAGE" "SOIC-8 Winbond"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7552,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7562,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Winbond"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7572,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/W25Q16JVSSIQ/Winbond/view-part/?ref=eda"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7582,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +7592,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q16JVSSIQ/Winbond/view-part/?ref=snap"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7602,7 @@
 			)
 		)
 		(property "MP" "W25Q16JVSSIQ"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +7612,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=618098&manufacturer=Winbond Electronics&part_name=W25Q16JVSSIQ&search_term=w25q16jvssiq"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,7 +7622,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7632,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7642,7 @@
 			)
 		)
 		(property "Description_1" "FLASH - NOR Memory IC 16Mb (2M x 8) SPI - Quad I/O 133 MHz 8-SOIC"
-			(at 234.95 80.01 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +7908,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,33pF")
-		(at 252.73 43.18 0)
+		(at 251.46 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7907,7 +7917,7 @@
 		(fields_autoplaced yes)
 		(uuid "279ba15d-fe51-409e-bb27-97e5a8840a16")
 		(property "Reference" "C18"
-			(at 255.27 40.6399 0)
+			(at 254 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +7926,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 255.27 43.18 0)
+			(at 254 41.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7925,7 +7935,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 250.952 43.18 90)
+			(at 249.682 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +7944,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C330JB8NNNC_C1663.pdf"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +7953,7 @@
 			)
 		)
 		(property "Description" "50V 33pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +7962,7 @@
 			)
 		)
 		(property "LCSC" "C1663"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +7971,7 @@
 			)
 		)
 		(property "Stock" "858224"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7980,7 @@
 			)
 		)
 		(property "Price" "0.008USD"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +7989,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +7998,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +8007,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8016,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8025,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +8034,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +8043,7 @@
 			)
 		)
 		(property "Part" "CL10C330JB8NNNC"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8052,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 255.27 45.72 0)
+			(at 254 44.45 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8051,7 +8061,7 @@
 			)
 		)
 		(property "Tolerance" "±5%"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8070,7 @@
 			)
 		)
 		(property "Capacitance" "33pF"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,7 +8079,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "C0G"
-			(at 252.73 43.18 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8300,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 46.99 0)
+		(at 246.38 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8299,7 +8309,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cc0418f-45e6-4838-af22-a946a8379a78")
 		(property "Reference" "#PWR038"
-			(at 247.65 53.34 0)
+			(at 246.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 52.07 0)
+			(at 246.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 46.99 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 46.99 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 46.99 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8366,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,33pF")
-		(at 247.65 43.18 0)
+		(at 246.38 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8365,7 +8375,7 @@
 		(dnp no)
 		(uuid "2f7eaae0-f459-4e75-a832-8f169e9bb1fc")
 		(property "Reference" "C17"
-			(at 245.11 40.6399 0)
+			(at 243.84 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8384,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 245.11 43.18 0)
+			(at 243.84 41.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8383,7 +8393,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 249.428 43.18 90)
+			(at 248.158 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C330JB8NNNC_C1663.pdf"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +8411,7 @@
 			)
 		)
 		(property "Description" "50V 33pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8420,7 @@
 			)
 		)
 		(property "LCSC" "C1663"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8429,7 @@
 			)
 		)
 		(property "Stock" "858224"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8438,7 @@
 			)
 		)
 		(property "Price" "0.008USD"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8447,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8456,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8465,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8474,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8483,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +8492,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8491,7 +8501,7 @@
 			)
 		)
 		(property "Part" "CL10C330JB8NNNC"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8510,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 245.11 45.72 0)
+			(at 243.84 44.45 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8509,7 +8519,7 @@
 			)
 		)
 		(property "Tolerance" "±5%"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +8528,7 @@
 			)
 		)
 		(property "Capacitance" "33pF"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +8537,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "C0G"
-			(at 247.65 43.18 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,7 +8721,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Crystals:Crystal, 12MHz, 20pF")
-		(at 254 29.21 0)
+		(at 252.73 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8719,7 +8729,7 @@
 		(dnp no)
 		(uuid "3ab8dd92-7a29-4f59-83e1-547f0b2449cc")
 		(property "Reference" "X1"
-			(at 256.286 19.558 0)
+			(at 255.016 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8737,7 @@
 			)
 		)
 		(property "Value" "X322512MSB4SI"
-			(at 262.382 22.098 0)
+			(at 261.112 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8745,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-			(at 254 39.37 0)
+			(at 252.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +8755,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322512MSB4SI_C9002.pdf"
-			(at 251.714 29.083 0)
+			(at 250.444 27.813 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8765,7 @@
 			)
 		)
 		(property "Description" "12MHz Surface Mount Crystal 20pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8774,7 @@
 			)
 		)
 		(property "LCSC" "C9002"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8783,7 @@
 			)
 		)
 		(property "Stock" "260231"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8792,7 @@
 			)
 		)
 		(property "Price" "0.068USD"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +8801,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8810,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,7 +8819,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8828,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8837,7 @@
 			)
 		)
 		(property "Category" "Crystals/Oscillators/Resonators,Crystals"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8846,7 @@
 			)
 		)
 		(property "Manufacturer" "Yangxing Tech"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +8855,7 @@
 			)
 		)
 		(property "Part" "X322512MSB4SI"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +8864,7 @@
 			)
 		)
 		(property "Frequency" "12MHz"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +8873,7 @@
 			)
 		)
 		(property "Frequency Stability" "±20ppm"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +8882,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C~+85°C"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,7 +8891,7 @@
 			)
 		)
 		(property "Frequency Tolerance" "±10ppm"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +8900,7 @@
 			)
 		)
 		(property "Crystal Type" "SMD Crystal Resonator"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +8909,7 @@
 			)
 		)
 		(property "Load Capacitance" "20pF"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +8918,7 @@
 			)
 		)
 		(property "Normal Temperature Frequency Tolerance" "±10ppm"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +8927,7 @@
 			)
 		)
 		(property "Type" "Surface Mount Crystal"
-			(at 254 29.21 0)
+			(at 252.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +8958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 26.67 270)
+		(at 245.11 25.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8958,7 +8968,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d964869-b44d-40f1-bce0-a9123a2889b3")
 		(property "Reference" "#PWR037"
-			(at 240.03 26.67 0)
+			(at 238.76 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,7 +8977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 26.6699 90)
+			(at 241.3 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +8986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 26.67 0)
+			(at 245.11 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +8995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 26.67 0)
+			(at 245.11 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,7 +9004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 26.67 0)
+			(at 245.11 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9026,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 106.68 0)
+		(at 231.14 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9025,7 +9035,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dce84e7-a3df-46b8-ad08-18c601df303f")
 		(property "Reference" "#PWR035"
-			(at 242.57 113.03 0)
+			(at 231.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +9044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 111.76 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 106.68 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 106.68 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +9070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 106.68 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9290,7 @@
 	)
 	(symbol
 		(lib_id "SS12D07VG4:SS12D07VG4")
-		(at 209.55 129.54 0)
+		(at 209.55 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9289,7 +9299,7 @@
 		(fields_autoplaced yes)
 		(uuid "5032a548-23a5-42c9-819f-68bffc5e0fe6")
 		(property "Reference" "BOOT_SEL1"
-			(at 215.9 128.2699 0)
+			(at 215.9 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +9308,7 @@
 			)
 		)
 		(property "Value" "SS12D07VG4"
-			(at 215.9 130.8099 0)
+			(at 215.9 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,7 +9317,7 @@
 			)
 		)
 		(property "Footprint" "BOOT toggle switch - SS12D07VG4 087:SW_SS12D07VG4"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9336,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9345,7 @@
 			)
 		)
 		(property "MF" "Shouhan"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +9355,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.7mm"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9365,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9365,7 +9375,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +9385,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SS12D07VG4/Shouhan/view-part/?ref=eda"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9385,7 +9395,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,7 +9405,7 @@
 			)
 		)
 		(property "PARTREV" "1"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +9415,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS12D07VG4/Shouhan/view-part/?ref=snap"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,7 +9425,7 @@
 			)
 		)
 		(property "MP" "SS12D07VG4"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9435,7 @@
 			)
 		)
 		(property "Description_1" "Switch Slide ON ON SPDT Top Slide 0.3A 30VDC PC Pins Bracket Mount/Through Hole Automotive Bulk"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +9445,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9455,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Shouhan"
-			(at 209.55 129.54 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,6 +9875,202 @@
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/75c54d97-db8f-4bdf-a4f3-daf781fcb8b9"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(at 215.9 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62478621-2d2c-4629-bf7b-596925c24852")
+		(property "Reference" "C33"
+			(at 210.058 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 217.678 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "70324515"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c5e8457-6147-49be-a490-39231483dd36")
+		)
+		(pin "2"
+			(uuid "5d91d993-1e2e-49b4-8068-ee1bf33e58df")
+		)
+		(instances
+			(project "Integrate Si5351A Module"
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/75c54d97-db8f-4bdf-a4f3-daf781fcb8b9"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -11489,7 +11695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 121.92 270)
+		(at 199.39 115.57 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11498,7 +11704,7 @@
 		(dnp no)
 		(uuid "93351079-b69b-4b45-a675-74a27e9d4877")
 		(property "Reference" "#PWR033"
-			(at 193.04 121.92 0)
+			(at 193.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11507,7 +11713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 121.92 0)
+			(at 194.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11515,7 +11721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 121.92 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,7 +11730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 121.92 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,7 +11739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 121.92 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,7 +12032,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 46.99 0)
+		(at 251.46 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11835,7 +12041,7 @@
 		(fields_autoplaced yes)
 		(uuid "a926157f-b8dd-4d72-95ed-8c720212409b")
 		(property "Reference" "#PWR039"
-			(at 252.73 53.34 0)
+			(at 251.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +12050,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 52.07 0)
+			(at 251.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11852,7 +12058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 46.99 0)
+			(at 251.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +12067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 46.99 0)
+			(at 251.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +12076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 46.99 0)
+			(at 251.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12081,6 +12287,71 @@
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/75c54d97-db8f-4bdf-a4f3-daf781fcb8b9"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae2ea402-f7c4-4b93-801f-f6a599df6797")
+		(property "Reference" "#PWR069"
+			(at 215.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.964 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d600d19b-27a7-4595-b5b3-31bec0aa09bb")
+		)
+		(instances
+			(project "Integrate Si5351A Module"
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/75c54d97-db8f-4bdf-a4f3-daf781fcb8b9"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12416,7 +12687,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 31.75 90)
+		(at 260.35 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12424,7 +12695,7 @@
 		(dnp no)
 		(uuid "f1e1d568-7630-4f7a-b2cb-9125bc19117e")
 		(property "Reference" "#PWR041"
-			(at 267.97 31.75 0)
+			(at 266.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12433,7 +12704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 31.7499 90)
+			(at 264.16 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +12713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 31.75 0)
+			(at 260.35 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 31.75 0)
+			(at 260.35 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +12731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 31.75 0)
+			(at 260.35 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
