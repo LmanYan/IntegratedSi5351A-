@@ -5,12 +5,12 @@
 	(uuid "d73855aa-ca57-474a-9478-c6dddc887125")
 	(paper "A4")
 	(title_block
+		(title "Integrated Si5351A Module - RF Module Stage")
 		(date "2026-02-09")
 		(rev "REV1")
-		(company "Yaniv Lieberman")
 	)
 	(lib_symbols
-		(symbol "ABM8G-25.000MHZ-B4Y-T3:ABM8G-25.000MHZ-B4Y-T3"
+		(symbol "ABM8G-25.000MHZ-18-D2Y-T:ABM8G-25.000MHZ-18-D2Y-T"
 			(pin_names
 				(offset 1.016)
 			)
@@ -26,7 +26,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ABM8G-25.000MHZ-B4Y-T3"
+			(property "Value" "ABM8G-25.000MHZ-18-D2Y-T"
 				(at -5.0944 -10.16 0)
 				(effects
 					(font
@@ -35,7 +35,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ABM8G-25.000MHZ-B4Y-T3:XTAL_ABM8G-25.000MHZ-B4Y-T3"
+			(property "Footprint" "ABM8G-25.000MHZ-18-D2Y-T:XTAL_ABM8G-25.000MHZ-18-D2Y-T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,17 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "08.13.15"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "MF" "Abracon"
 				(at 0 0 0)
 				(effects
 					(font
@@ -93,6 +83,96 @@
 					(hide yes)
 				)
 			)
+			(property "Package" "SMD-4 Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ABM8G-25.000MHZ-18-D2Y-T/Abracon/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "08.13.15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABM8G-25.000MHZ-18-D2Y-T/Abracon/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ABM8G-25.000MHZ-18-D2Y-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "25 MHz ±20ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
 			(property "MANUFACTURER" "Abracon"
 				(at 0 0 0)
 				(effects
@@ -103,7 +183,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ABM8G-25.000MHZ-B4Y-T3_0_0"
+			(symbol "ABM8G-25.000MHZ-18-D2Y-T_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -2.54 0)
@@ -268,7 +348,8 @@
 				(pin power_in line
 					(at 7.62 -5.08 180)
 					(length 2.54)
-					(name "GND__1"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -823,7 +904,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Capacitors:0603,12pF"
+		(symbol "PCM_JLCPCB-Capacitors:0603,30pF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -842,7 +923,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "12pF"
+			(property "Value" "30pF"
 				(at 2.032 -0.3782 0)
 				(effects
 					(font
@@ -860,7 +941,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C120JB8NNNC_C38523.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG300J500NT_C1658.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -869,7 +950,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Description" "50V 30pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -878,7 +959,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C38523"
+			(property "LCSC" "C1658"
 				(at 0 0 0)
 				(effects
 					(font
@@ -887,7 +968,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "843507"
+			(property "Stock" "276323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -896,7 +977,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.008USD"
+			(property "Price" "0.006USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -950,7 +1031,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -959,7 +1040,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "CL10C120JB8NNNC"
+			(property "Part" "0603CG300J500NT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -986,7 +1067,7 @@
 					(hide yes)
 				)
 			)
-			(property "Capacitance" "12pF"
+			(property "Capacitance" "30pF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1013,7 +1094,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603,12pF_0_1"
+			(symbol "0603,30pF_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0.635) (xy 1.27 0.635)
@@ -1039,7 +1120,7 @@
 					)
 				)
 			)
-			(symbol "0603,12pF_1_1"
+			(symbol "0603,30pF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -1612,25 +1693,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
+			(property "Reference" "IC1"
+				(at 13.97 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "SI5351A-B-GT"
-				(at 24.13 5.08 0)
+				(at 13.97 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "SI5351A-B-GT:SOP50P490X110-10N"
+			(property "Footprint" "Si5351A-B:SOP50P490X110-10N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1801,7 +1880,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 0 0)
 					(length 5.08)
 					(name "VDD"
@@ -2333,8 +2412,8 @@
 		(uuid ab3ac25c-4ded-4f60-bbc4-7348c0be66e7)
 	)
 	(rectangle
-		(start 36.5 68.75)
-		(end 95.25 92)
+		(start 44.12 57.32)
+		(end 102.87 80.57)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2356,7 +2435,7 @@
 	)
 	(text "RF Module Decoupling Capacitors"
 		(exclude_from_sim no)
-		(at 52.578 67.564 0)
+		(at 60.198 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2405,7 +2484,7 @@
 		(uuid "e231a1eb-1f91-4bcd-b520-3f53124aab68")
 	)
 	(junction
-		(at 50.8 77.47)
+		(at 58.42 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15482b19-9d47-4928-8a84-746963ced085")
@@ -2417,19 +2496,19 @@
 		(uuid "236bed00-437c-4e6f-b1d8-c4443a6f57af")
 	)
 	(junction
-		(at 50.8 85.09)
+		(at 58.42 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d57e29e-0cc0-4620-9a90-cc7ee8cd9d37")
 	)
 	(junction
-		(at 87.63 77.47)
+		(at 95.25 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f339e9-524a-4ebe-9144-25a2f2a964a7")
 	)
 	(junction
-		(at 60.96 77.47)
+		(at 68.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62f598c6-5032-432a-af42-c937128e9e60")
@@ -2472,7 +2551,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 77.47) (xy 87.63 77.47)
+			(xy 90.17 66.04) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2522,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 87.63 77.47)
+			(xy 95.25 62.23) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 85.09) (xy 60.96 85.09)
+			(xy 58.42 73.66) (xy 68.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2731,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 77.47) (xy 50.8 77.47)
+			(xy 52.07 66.04) (xy 58.42 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +2781,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 73.66) (xy 60.96 77.47)
+			(xy 68.58 62.23) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2791,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 77.47) (xy 60.96 77.47)
+			(xy 58.42 66.04) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2731,7 +2810,7 @@
 		(uuid "2841e141-fd2f-46f7-a3e8-b865091abc76")
 	)
 	(label "SYS_3V3"
-		(at 60.96 73.66 180)
+		(at 68.58 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2781,7 +2860,7 @@
 		(uuid "42a35d7d-503a-4d5c-9feb-86600e31aa28")
 	)
 	(label "RF_VDD0"
-		(at 82.55 77.47 180)
+		(at 90.17 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2801,7 +2880,7 @@
 		(uuid "507f5e8b-38e6-4236-aa10-e796466c6c28")
 	)
 	(label "RF_VDD"
-		(at 44.45 77.47 180)
+		(at 52.07 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2941,7 +3020,7 @@
 		(uuid "e4bc7b90-294d-4357-8cc5-63dc99bb4df9")
 	)
 	(label "SYS_3V3"
-		(at 87.63 73.66 180)
+		(at 95.25 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3030,7 +3109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SI5351A-B-GT:SOP50P490X110-10N"
+		(property "Footprint" "Si5351A-B:SOP50P490X110-10N"
 			(at 52.07 38.1 0)
 			(effects
 				(font
@@ -3247,7 +3326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3afb9dc3-e967-44a0-aebd-03919e46c20e")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR064"
 			(at 203.2 76.2 0)
 			(effects
 				(font
@@ -3297,7 +3376,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR054")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8c4c39-ea7b-420c-9955-8607858df280")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -3364,203 +3443,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,12pF")
-		(at 133.35 39.37 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fd39d22-1aca-470d-b7cb-7f55970f01de")
-		(property "Reference" "C24"
-			(at 130.81 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12pF"
-			(at 130.81 39.37 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 131.572 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C120JB8NNNC_C38523.pdf"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C38523"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "843507"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.008USD"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CL10C120JB8NNNC"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 130.81 41.91 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "±5%"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "12pF"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "C0G"
-			(at 133.35 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "62c9f5a4-17dd-4e6f-9bdb-7215d3389284")
-		)
-		(pin "1"
-			(uuid "a5029f49-fc1a-4b8a-89c8-770cdf6021a0")
-		)
-		(instances
-			(project ""
-				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "C24")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3594,7 +3477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TSM-106-01-L-SV:SAMTEC_TSM-106-01-L-SV"
+		(property "Footprint" "Samtec TSM_106_01_L_SV:SAMTEC_TSM-106-01-L-SV"
 			(at 213.36 101.6 0)
 			(effects
 				(font
@@ -3883,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 85.09 0)
+		(at 95.25 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3891,8 +3774,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c47a661-ce74-4283-b118-a7707b3457a4")
-		(property "Reference" "#PWR060"
-			(at 87.63 91.44 0)
+		(property "Reference" "#PWR056"
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3784,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 90.17 0)
+			(at 95.25 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 85.09 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 85.09 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 85.09 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3824,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR060")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3975,7 +3858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BWSMA-KE-P001:BATWIRELESS_BWSMA-KE-P001"
+		(property "Footprint" "SMA Headert - BWSMA-KE-P001:BATWIRELESS_BWSMA-KE-P001"
 			(at 213.36 49.53 0)
 			(effects
 				(font
@@ -4157,7 +4040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bef1cc9-24da-4e7f-ad1c-5a57ba466268")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR054"
 			(at 24.13 33.02 0)
 			(effects
 				(font
@@ -4207,7 +4090,7 @@
 		(instances
 			(project ""
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR050")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4223,7 +4106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "855f5e94-16b4-4c52-aad2-e2ded8c943ae")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR057"
 			(at 100.33 49.53 0)
 			(effects
 				(font
@@ -4273,7 +4156,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR059")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f78fa2-e7aa-4946-b1bd-cfb9c349d811")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR063"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -4339,7 +4222,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR053")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4355,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88032e65-0651-48cf-bd69-b1ed2bd7be40")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR060"
 			(at 186.69 104.14 0)
 			(effects
 				(font
@@ -4406,7 +4289,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR056")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4414,7 +4297,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,4.7uF")
-		(at 60.96 81.28 0)
+		(at 68.58 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4423,7 +4306,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fc53b13-dab4-4331-ba1b-7cbd0922efdc")
 		(property "Reference" "C27"
-			(at 63.5 78.7399 0)
+			(at 71.12 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4315,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 63.5 81.28 0)
+			(at 71.12 69.85 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4441,7 +4324,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 59.182 81.28 90)
+			(at 66.802 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4333,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4342,7 @@
 			)
 		)
 		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4351,7 @@
 			)
 		)
 		(property "LCSC" "C19666"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4360,7 @@
 			)
 		)
 		(property "Stock" "4246728"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4369,7 @@
 			)
 		)
 		(property "Price" "0.013USD"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4378,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4387,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4396,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4405,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4414,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4423,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4432,7 @@
 			)
 		)
 		(property "Part" "CL10A475KO8NNNC"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4441,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 63.5 83.82 0)
+			(at 71.12 72.39 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4567,7 +4450,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4459,7 @@
 			)
 		)
 		(property "Capacitance" "4.7uF"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4468,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 60.96 81.28 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5809f1b-5c16-4420-afc1-e4ad9604c516")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR061"
 			(at 186.69 109.22 0)
 			(effects
 				(font
@@ -4669,7 +4552,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR055")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4677,7 +4560,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 85.09 0)
+		(at 58.42 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4685,8 +4568,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b85da55a-27d1-4854-b843-0062720e872e")
-		(property "Reference" "#PWR061"
-			(at 50.8 91.44 0)
+		(property "Reference" "#PWR055"
+			(at 58.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4578,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 90.17 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 85.09 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,7 +4595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 85.09 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +4604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 85.09 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4618,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR061")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4769,7 +4652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BWSMA-KE-P001:BATWIRELESS_BWSMA-KE-P001"
+		(property "Footprint" "SMA Headert - BWSMA-KE-P001:BATWIRELESS_BWSMA-KE-P001"
 			(at 213.36 33.02 0)
 			(effects
 				(font
@@ -4942,35 +4825,35 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,12pF")
-		(at 156.21 39.37 180)
+		(lib_id "PCM_JLCPCB-Capacitors:0603,30pF")
+		(at 133.35 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9e00965-4857-448e-8df1-d239a4c85cb0")
-		(property "Reference" "C25"
-			(at 158.75 36.8299 0)
+		(uuid "d0f29e46-d5cf-4a75-84ee-badd8cf20cd9")
+		(property "Reference" "C29"
+			(at 135.89 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "12pF"
-			(at 158.75 39.37 0)
+		(property "Value" "30pF"
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 157.988 39.37 90)
+			(at 131.572 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,8 +4861,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C120JB8NNNC_C38523.pdf"
-			(at 156.21 39.37 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG300J500NT_C1658.pdf"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,8 +4870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 12pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 156.21 39.37 0)
+		(property "Description" "50V 30pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,8 +4879,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C38523"
-			(at 156.21 39.37 0)
+		(property "LCSC" "C1658"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,8 +4888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "843507"
-			(at 156.21 39.37 0)
+		(property "Stock" "276323"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,8 +4897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.008USD"
-			(at 156.21 39.37 0)
+		(property "Price" "0.006USD"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +4907,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 156.21 39.37 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +4916,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 156.21 39.37 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +4925,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 156.21 39.37 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +4934,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 156.21 39.37 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +4943,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 156.21 39.37 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,8 +4951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 156.21 39.37 0)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,8 +4960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CL10C120JB8NNNC"
-			(at 156.21 39.37 0)
+		(property "Part" "0603CG300J500NT"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,16 +4970,16 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 158.75 41.91 0)
+			(at 135.89 41.91 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Tolerance" "±5%"
-			(at 156.21 39.37 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,8 +4987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "12pF"
-			(at 156.21 39.37 0)
+		(property "Capacitance" "30pF"
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +4997,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "C0G"
-			(at 156.21 39.37 0)
+			(at 133.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,16 +5005,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8a46d216-ba55-49fd-8711-3889cc20d442")
-		)
 		(pin "1"
-			(uuid "4a184850-ff34-45cd-b30a-3b0a877eb038")
+			(uuid "a6d674aa-6f81-47c8-b1d4-532e1afef13b")
+		)
+		(pin "2"
+			(uuid "464128e4-f874-464f-a9c4-fe8c053da7b8")
 		)
 		(instances
-			(project "Integrate Si5351A Module"
+			(project ""
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "C25")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5088,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 50.8 81.28 0)
+		(at 58.42 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5214,7 +5097,7 @@
 		(fields_autoplaced yes)
 		(uuid "dffe0971-aa3d-4b13-a249-35a0b64ea5c7")
 		(property "Reference" "C26"
-			(at 53.34 78.7399 0)
+			(at 60.96 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5106,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 53.34 81.28 0)
+			(at 60.96 69.85 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5232,7 +5115,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 49.022 81.28 90)
+			(at 56.642 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5124,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5133,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5142,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5151,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5160,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5169,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5178,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5187,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5196,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5205,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5214,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5223,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5232,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 53.34 83.82 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5358,7 +5241,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5250,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5259,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 50.8 81.28 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,43 +5283,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ABM8G-25.000MHZ-B4Y-T3:ABM8G-25.000MHZ-B4Y-T3")
-		(at 144.78 35.56 0)
+		(lib_id "PCM_JLCPCB-Capacitors:0603,30pF")
+		(at 156.21 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e35c8e64-08a2-420f-a746-0499d5ed8aa0")
-		(property "Reference" "Y2"
-			(at 144.78 25.4 0)
+		(uuid "e683f307-5de5-47b2-9ac9-c79a3f19a3b4")
+		(property "Reference" "C30"
+			(at 158.75 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "ABM8G-25.000MHZ-B4Y-T3"
-			(at 144.78 27.94 0)
+		(property "Value" "30pF"
+			(at 158.75 39.37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ABM8G-25.000MHZ-B4Y-T3:XTAL_ABM8G-25.000MHZ-B4Y-T3"
-			(at 144.78 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 35.56 0)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 154.432 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,8 +5319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 144.78 35.56 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603CG300J500NT_C1658.pdf"
+			(at 156.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,62 +5328,151 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "08.13.15"
-			(at 144.78 35.56 0)
+		(property "Description" "50V 30pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 156.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 144.78 35.56 0)
+		(property "LCSC" "C1658"
+			(at 156.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
-			(at 144.78 35.56 0)
+		(property "Stock" "276323"
+			(at 156.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Abracon"
-			(at 144.78 35.56 0)
+		(property "Price" "0.006USD"
+			(at 156.21 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "3f9e1604-b756-4cff-aa25-902f0db1c6a0")
+		(property "Process" "SMT"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603CG300J500NT"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "30pF"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9f22cc0d-69f5-40b5-a7bc-c75220b14c52")
+			(uuid "c5fb557c-cb97-47d2-950d-ef9f5ecd3aa2")
 		)
 		(pin "2"
-			(uuid "f17b9061-1d2b-4826-b463-f8336300010e")
-		)
-		(pin "3"
-			(uuid "4ccc4e8f-4056-43c6-a10a-776a788137e1")
+			(uuid "07b7198a-cfeb-42c4-8249-58546cd6592a")
 		)
 		(instances
-			(project ""
+			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "Y2")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec9b71ee-93fb-45e2-8518-4364994dd608")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR062"
 			(at 203.2 41.91 0)
 			(effects
 				(font
@@ -5797,7 +5761,7 @@
 		(instances
 			(project ""
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
-					(reference "#PWR052")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5831,7 +5795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BWSMA-KE-P001:BATWIRELESS_BWSMA-KE-P001"
+		(property "Footprint" "SMA Headert - BWSMA-KE-P001:BATWIRELESS_BWSMA-KE-P001"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -6005,7 +5969,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 87.63 81.28 0)
+		(at 95.25 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6014,7 +5978,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1746bd5-2e97-4885-a92e-f285f22d52a0")
 		(property "Reference" "C28"
-			(at 90.17 78.7399 0)
+			(at 97.79 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +5987,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 90.17 81.28 0)
+			(at 97.79 69.85 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6032,7 +5996,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 85.852 81.28 90)
+			(at 93.472 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +6005,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6014,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6023,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6032,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6041,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +6050,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6059,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6068,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6077,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6086,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6095,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6104,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6113,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 90.17 83.82 0)
+			(at 97.79 72.39 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6158,7 +6122,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6131,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6140,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 87.63 81.28 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,6 +6380,201 @@
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABM8G-25.000MHZ-18-D2Y-T:ABM8G-25.000MHZ-18-D2Y-T")
+		(at 144.78 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf6bc18-3b19-4a4e-aee5-a9a4572b98a7")
+		(property "Reference" "Y2"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ABM8G-25.000MHZ-18-D2Y-T"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Stock 25MHz:XTAL_ABM8G-25.000MHZ-18-D2Y-T"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Abracon"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 Abracon"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ABM8G-25.000MHZ-18-D2Y-T/Abracon/view-part/?ref=eda"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.13.15"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABM8G-25.000MHZ-18-D2Y-T/Abracon/view-part/?ref=snap"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ABM8G-25.000MHZ-18-D2Y-T"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "25 MHz ±20ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c5df7f80-a453-4ca3-8145-4690251087d4")
+		)
+		(pin "2"
+			(uuid "c602d355-8bf1-4950-93a2-41de646cc1ea")
+		)
+		(pin "1"
+			(uuid "f2de1c97-23cd-4249-bf0c-2479cbe97e91")
+		)
+		(pin "3"
+			(uuid "7f6cbe95-2964-4fad-b024-5ccee4e17071")
+		)
+		(instances
+			(project ""
+				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/096e3b97-f1cf-4ae1-a375-ee6f8ad096a4"
+					(reference "Y2")
 					(unit 1)
 				)
 			)

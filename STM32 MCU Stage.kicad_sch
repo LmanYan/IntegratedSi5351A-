@@ -5,9 +5,9 @@
 	(uuid "835b870e-6780-4074-983b-4a682bf81b37")
 	(paper "A4")
 	(title_block
+		(title "Integrated Si5351A Module - STM32 MCU")
 		(date "2026-02-09")
 		(rev "REV1")
-		(company "Yaniv Lieberman")
 	)
 	(lib_symbols
 		(symbol "68000-408HLF:68000-408HLF"
@@ -5715,7 +5715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0796027a-5103-498c-91e5-63b4e74fc4ea")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 105.41 20.32 0)
 			(effects
 				(font
@@ -5731,7 +5731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32G071RBT6:QFP50P1200X1200X160-64N"
+		(property "Footprint" "MCU-stm32g071rbt6:QFP50P1200X1200X160-64N"
 			(at 105.41 76.2 0)
 			(effects
 				(font
@@ -6074,7 +6074,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6090,7 +6090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fa4aac5-69d1-4e16-a3f5-7bf0b93175fa")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 213.36 41.9099 0)
 			(effects
 				(font
@@ -6270,7 +6270,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6285,7 +6285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10cd4c26-24e6-45bb-8500-4a952da01e45")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 133.35 171.4499 0)
 			(effects
 				(font
@@ -6465,7 +6465,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6703,7 +6703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aa1d71b-c201-4bcd-b425-d5330d7c31ee")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 228.6 72.39 0)
 			(effects
 				(font
@@ -6754,7 +6754,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6786,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NX3225SA-16.000M-STD-CRS-2:OSCCC320X250X60N"
+		(property "Footprint" "stm32 16 mhz xtal - NX3225SA:OSCCC320X250X60N"
 			(at 200.66 40.64 0)
 			(effects
 				(font
@@ -6965,7 +6965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d9ad8e-64ce-40f3-b2ef-0a367f9872d6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 130.81 185.42 0)
 			(effects
 				(font
@@ -7015,7 +7015,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7031,7 +7031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33bd9204-5a56-468b-a2b6-8686b816a39b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 158.75 80.01 0)
 			(effects
 				(font
@@ -7082,7 +7082,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7098,7 +7098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3417e7ff-c942-4fc8-bf61-5ed7c89929d6")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 187.96 81.2799 0)
 			(effects
 				(font
@@ -7116,7 +7116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TSM-104-01-L-SV:SAMTEC_TSM-104-01-L-SV"
+		(property "Footprint" "Samtec TSM-104-01-L-SV:SAMTEC_TSM-104-01-L-SV"
 			(at 181.61 81.28 0)
 			(effects
 				(font
@@ -7249,7 +7249,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7265,7 +7265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3482a6b1-5b4f-4a0b-9781-1af88e107539")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 66.04 87.63 0)
 			(effects
 				(font
@@ -7315,7 +7315,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7330,7 +7330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34bfcd5d-9083-417b-91b9-8f08beafd1db")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 187.96 41.9099 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7525,7 +7525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36d92fb5-ee8e-4d35-8820-e6c6b8ba9500")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 102.87 148.5899 0)
 			(effects
 				(font
@@ -7705,7 +7705,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -7721,7 +7721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be817bc-30e9-4748-9881-2b7348c21a31")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 100.33 162.56 0)
 			(effects
 				(font
@@ -7771,7 +7771,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7787,7 +7787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41c1df7f-75e9-4b39-b6f6-4bfef650a79a")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 222.25 125.7299 0)
 			(effects
 				(font
@@ -7805,7 +7805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "68000-408HLF:AMPHENOL_68000-408HLF"
+		(property "Footprint" "8 Pin Header - 68000-408HLF:AMPHENOL_68000-408HLF"
 			(at 215.9 125.73 0)
 			(effects
 				(font
@@ -7980,7 +7980,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7996,7 +7996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c40bd99-da84-442a-8ccc-e8d855fbb8be")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 95.25 181.61 0)
 			(effects
 				(font
@@ -8046,7 +8046,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8284,7 +8284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "682b6450-dfe6-49ca-9c77-0e6591b8707c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -8334,7 +8334,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8350,7 +8350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6965af18-0302-497b-9e56-03aecbf6136a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR052"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -8401,7 +8401,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR048")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8640,7 +8640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac665586-2796-4114-9165-377dbbae46c2")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 93.98 146.0499 0)
 			(effects
 				(font
@@ -8820,7 +8820,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8836,7 +8836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b45ea89f-0d06-474c-bc5e-c28b0f78016a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 200.66 54.61 0)
 			(effects
 				(font
@@ -8886,7 +8886,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8901,7 +8901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b604c242-dbe1-4799-8e60-bb81b624c892")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 97.79 168.9099 0)
 			(effects
 				(font
@@ -9081,7 +9081,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9319,7 +9319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c35ed0b6-8468-4661-a448-7f12deac2fa9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -9369,7 +9369,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9385,7 +9385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d889ded6-3beb-4eb4-90cd-698a251fe414")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 201.93 119.38 0)
 			(effects
 				(font
@@ -9436,7 +9436,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9451,7 +9451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1df3524-5373-4b68-b63e-b3e5ca44cc5a")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 133.35 148.5899 0)
 			(effects
 				(font
@@ -9631,7 +9631,7 @@
 		(instances
 			(project "Integrate Si5351A Module"
 				(path "/5effc93d-4636-458a-a65b-e63d3c617be7/6855ab1b-0a54-4134-bbbf-5553693eadbf"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9665,7 +9665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "68000-408HLF:AMPHENOL_68000-408HLF"
+		(property "Footprint" "8 Pin Header - 68000-408HLF:AMPHENOL_68000-408HLF"
 			(at 254 80.01 0)
 			(effects
 				(font
